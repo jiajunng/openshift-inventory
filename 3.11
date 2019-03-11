@@ -111,7 +111,9 @@ openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 
 
 openshift_master_htpasswd_file=/root/htpasswd.openshift
 #openshift_master_ldap_ca_file=/root/ipa-ca.crt
+openshift_master_htpasswd_users={ 'ocadmin': '$apr1$Dh1jdGap$/uwCYGkTEx84Lyuf3oekB/'}
 
+###########################################################################
 
 ###########################################################################
 ### OpenShift Metrics and Logging Vars
