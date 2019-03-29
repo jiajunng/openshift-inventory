@@ -67,9 +67,9 @@ openshift_master_api_port=8443
 openshift_master_console_port=8443
 
 #Default:  openshift_master_cluster_method=native
-#openshift_master_cluster_hostname=ocp.test.jj
-#openshift_master_cluster_public_hostname=ocp.test.jj
-#openshift_master_default_subdomain=app.ocp.test.jj
+openshift_master_cluster_hostname=loadbalancer.2942.internal
+openshift_master_cluster_public_hostname=loadbalancer.2942.example.opentlc.com
+openshift_master_default_subdomain=apps.2942.example.opentlc.com
 #openshift_master_ca_certificate=
 #openshift_master_overwrite_named_certificates=
 
